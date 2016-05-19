@@ -1,0 +1,57 @@
+body {
+  font-family: 'Indie Flower', cursive;
+}
+
+.navbar-header a.navbar-brand {
+  color: #ee82ee;
+}
+
+.container-fluid .row {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  background-color: #dddddd;
+  margin: 10px;
+} 
+
+ ul.nav.navbar-nav li {
+  background-color: #d3d3d3;
+  font-weight: bold;
+}
+
+ul.nav.navbar-nav a {
+  color: #000000;
+}
+
+ul.nav.navbar-nav > li:hover {
+  background-color: #00ced1;
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+h2, h3 {
+  font-weight: bolder;
+  font-variant: small-caps;
+  color: #00ced1;
+  text-shadow: 2px 2px 1px #000000;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+a.navbar-brand {
+  font-size: 4vw;
+}
+
+.navbar-header {
+  padding: 10px 10px 20px 10px;
+}
+
+@media (max-width:767px) {
+  a.navbar-brand {
+  font-size: 30px;
+  }
+  
+}
